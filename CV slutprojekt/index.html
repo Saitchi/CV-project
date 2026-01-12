@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="js/main.js" defer></script>
+    <title>My CV</title>
+</head>
+<body>
+    <div class="Grid">
+
+        <!-- Row 1 -->
+        <header class="Header">
+            <div class="Box">
+                <button class="LightToggle"><b>Theme</b></button>
+            </div>
+        </header>
+
+        <!-- Row 2 -->
+        <aside class="Sidebar LeftSidebar">
+            <section class="Job">
+                <h2>Job Experience -</h2>
+                <ul>
+                    <li>I have no Experience</li>
+                    <li>22 Year old Male Interested in technology especially Augmented Reality tech</li>
+                </ul>
+            </section>
+            <section class="Grades">
+                <h2>Language / Grades -</h2>
+                <ul>
+                    <li>Programming in C# (D)</li>
+                    <li>Linux (Basic system administration) (C)</li>
+                    <li>Network Technologies - Level 1 (C)</li>
+                    <li>Computer and Network Technology (C)</li>
+                    <li>Computer Technology 1a (D)</li>
+                </ul>
+                <h3>Ongoing & Planned Courses - </h3>
+                <ul>
+                    <li>Web Development 1 HTML5, CSS & JavaScript (Currently doing)</li>
+                    <li>Web Development 2 (Planned)</li>
+                    <li>Programming 2 (Planned)</li>
+                    <li>Web Server Programming 1 & 2 Php, SQL & MySQL (Planned)</li>
+                    <li>Mathematics 2c & 3c (Planned)</li>
+                    <li>Trying to learn to use Unity</li>
+                </ul>
+            </section>
+        </aside>
+        <main class="Main">
+            <section class="Title">
+                <h1 class="titleAvatar">CV Project</h1>
+                <div class="avatar">
+                    <img class="avatar img" src="images/37259435981_90730aa153_w.jpg" alt="Avatar cat from openverse.org" fetchpriority="high"> <!--Lighthouse told me to add fetchpriority to it-->
+                </div>
+            </section>
+            <section class="splide" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+		            <ul class="splide__list">
+			            <li class="splide__slide">
+                            <img src="images/13831046844_5421608d78_o.jpg" alt="Picture of cat 1 from openverse.org">
+                        </li>
+			            <li class="splide__slide">
+                            <img src="images/156157869_9e929563d3_o.jpg" alt="Picture of cat 2 from openverse.org">
+                        </li>
+			            <li class="splide__slide">
+                            <img src="images/17038569419_5d5aa92c96_o.jpg" alt="Picture of cat 3 from openverse.org">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/18223540618_bcf788a656_o.jpg" alt="Picture of cat 4 from openverse.org">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/25410290293_f9167710fd_o.jpg" alt="Picture of cat 5 from openverse.org">
+                        </li>
+		            </ul>
+                </div>
+            </section>
+            <script>
+                new Splide( '.splide',
+                {
+                    speed: number = 1000
+                    
+                }).mount();
+            </script>
+        </main>
+        <aside class="Sidebar RightSidebar">
+            <section class="Info">
+                <h2>Contact Info -</h2>
+                <ul>
+                    <li>Liam Renfors Wallberg</li>
+                    <li>Phone number: 0725600731</li>
+                    <li> <a class="Githubcolour" href="https://github.com/Saitchi">Github.com/Saitchi</a></li>
+                    <li>Linkedin: Not yet made.</li>
+                </ul>
+            </section>
+        </aside>
+
+    <!-- Row 3 -->
+       <footer class="Footer">
+            <nav>
+                <button class="JobExperience"> Job / About</button>
+                <button class="SchoolExperience"> School</button>
+                <button class="SomethingElse">Pictures for higher grade</button>
+                <button class="ContactInfo">Contact Info</button>
+            </nav>
+        </footer>
+
+    </div>
+</body>
+</html>
+<!--
+FIXME Lightmode button doesn't save after refreshing page
+TODO Add a button to go to tech stuff i'm interested in
+TODO Use that website to check that everything works
+TODO Check that it's mobile compatible
+
+Done stuff
+TODO Use images that aren't illegal!
+Make it so the github actually is a link
+Add contact information:
+Phone number 0725600731
+Github: https://github.com/Saitchi
+Linkedin: Too scared to make one 
+List of stuff to add to experiences
+C# course
+HTML5
+CSS
+JavaScript
+Linux
+ and list to add as well for experience
+plan to learn 
+SQL and MySQL
+Php
+Add a main menu 
+Customify the Lightmode button
+Add a button to go to Language experience
+->
